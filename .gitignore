@@ -35,6 +35,13 @@ Icon
 .Spotlight-V100
 .Trashes
 
+
+# Compiled Directories#
+#######################
+tmp/**/*
+debug/**/*
+
+
 # Compiled source #
 ###################
 *.com
