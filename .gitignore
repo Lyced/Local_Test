@@ -38,8 +38,8 @@ Icon
 
 # Compiled Directories#
 #######################
-tmp/**/*
-debug/**/*
+*/tmp/**/*
+*/debug/**/*
 
 
 # Compiled source #
