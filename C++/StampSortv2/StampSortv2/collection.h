@@ -17,8 +17,7 @@ public:
 	int minstamps, mincost;
 	stamp *list;
 	collection();
-//	collection(int);
-	~collection();
+	//~collection();
 	void getValues(stack<int> &tempStamps);
 	void firstMethod(int amount);
 	void secondMethod(int amount);
@@ -28,7 +27,7 @@ public:
 };
 
 collection::collection(){
-	static const int defaultsize = 3;
+	const int defaultsize = 3;
 	list = new stamp[defaultsize];
 	validFactors = new int[defaultsize];
 	stampvalue = -1;
@@ -171,6 +170,10 @@ void collection::firstMethod(int amount) {
 	checkMin(amount);
 
 	displayResults(amount);
+/*
+	delete [] list;
+	delete [] validFactors;*/
+
 }
 
 void collection::secondMethod(int amount) {
