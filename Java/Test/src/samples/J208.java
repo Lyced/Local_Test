@@ -4,6 +4,8 @@ public class J208 {
 
 	public static void main(String[] args) {
 		
+		//program to estimate the value of Pi by 4 * (1 - 1/3 + 1/5 - 1/7 + 1/9 -...) up to 1/99
+		
 		double tempPi = 0, pi, count = 1;
 		boolean negative = false;
 		
@@ -17,7 +19,7 @@ public class J208 {
 				negative = true;
 			}
 			
-			count = count + 2;
+			count += 2;
 			
 		}
 		

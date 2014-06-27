@@ -14,18 +14,21 @@ public class J502 {
 		
 		for (;;) {
 			
+			//gets the string entered by the user and converts all the character to their lower case equivalent
 			System.out.print("Please enter the source word: ");
-			str = input.next().toLowerCase();
+			str = input.next().toLowerCase(); 
 			
 			if (str.equals("exit")) {
 				
+				//terminal value
 				break;
 				
 			}
 											
 			System.out.print("Please enter the letter that you wish to count: ");
-			a = input.next().charAt(0);
+			a = input.next().charAt(0); //get the letter that the user wants counted
 			
+			//pass both the string and letter to the count method
 			System.out.println("The letter " + a + " appears in the word " + str + " " + count(str,a) + " times.");
 			
 		}
@@ -38,6 +41,7 @@ public class J502 {
 		
 		int i, count = 0;
 		
+		//traverse the string character by character and checks if it matches the letter the user wants counted
 		for (i = 0; i < str.length(); i ++) {
 			
 			if (str.charAt(i) == a) {
@@ -45,7 +49,6 @@ public class J502 {
 				count++;
 				
 			}
-			
 		}
 		
 		return count;

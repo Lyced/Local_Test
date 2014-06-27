@@ -6,6 +6,8 @@ public class J201 {
 
 	public static void main(String[] args) {
 		
+		//Program that takes in an integer value and determines whether it is a zero value or not
+		
 		int n;
 		
 		Scanner input = new Scanner(System.in);
@@ -27,6 +29,9 @@ public class J201 {
 	}
 	
 	public static char iZ_zero(int n) {
+		
+		//A rather roundabout way of determining whether a value is zero or not by returning char values that
+		//will be interpreted in the main function
 		
 		if (n == 0) {
 			
