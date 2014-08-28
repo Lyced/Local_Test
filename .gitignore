@@ -46,7 +46,7 @@ Icon
 ######################
 *.sdf
 *.sln
-*.suo
+*.v11.suo
 
 # Compiled source #
 ###################
