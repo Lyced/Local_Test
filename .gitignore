@@ -42,10 +42,11 @@ Icon
 */**/debug/**/*
 */**/.metadata/**/*
 
-# Compiled Solutions #
+# Visual Studio Compiled Solutions #
 ######################
 *.sdf
 *.sln
+*.suo
 
 # Compiled source #
 ###################
