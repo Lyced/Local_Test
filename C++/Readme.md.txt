@@ -1,3 +1,0 @@
-#C++
-
-This is a folder containing some of my earlier C++ work from university cleaned up from the functional programming into a more object-oriented focus.
