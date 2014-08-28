@@ -42,6 +42,10 @@ Icon
 */**/debug/**/*
 */**/.metadata/**/*
 
+# Compiled Solutions #
+######################
+*.sdf
+*.sln
 
 # Compiled source #
 ###################
