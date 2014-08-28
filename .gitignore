@@ -48,6 +48,7 @@ Icon
 *.sln
 *.v11.suo
 *.vcxproj.*
+*.vcxproj
 
 # Compiled source #
 ###################
